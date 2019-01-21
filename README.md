@@ -1,1 +1,1 @@
-# Mastering data structures in Ruby source code.
+# Data Structures From Scractch - Source Code
