@@ -1,1 +1,1 @@
-# Data Structures From Scractch - Source Code
+# Data Structures From Scratch - Source Code
