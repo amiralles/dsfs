@@ -57,12 +57,14 @@ module DS
       # calculates the height of the tree.
       if (h(n.left) - h(n.right) == 2) 
         if (h(n.left.right) > h(n.left.left)) 
-          return rotate_left_right(n.left)
+          # return rotate_left_right(n.left)
+          return rotate_left_right(n)
         end
         return rotate_right(n)
       elsif (h(n.right) - h(n.left) == 2) 
         if (h(n.right.left) > h(n.right.right)) 
-          return rotate_right_left(n.right)
+          # return rotate_right_left(n.right)
+          return rotate_right_left(n)
         end
         return rotate_left(n)
       end
